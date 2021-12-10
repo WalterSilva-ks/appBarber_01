@@ -35,15 +35,23 @@ class _ServicesPageState extends State<ServicesPage> {
                       color: Colors.white,
                     ),
                   ),
-                  onTap: () {
-                    setState(() {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const Schedule(),
-                          ));
-                    });
-                  },
+                  onTap: () => showDialog<String>(
+                    context: context,
+                    builder: (BuildContext context) => Stack(
+                      alignment: Alignment.center,
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.all(8),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          width: MediaQuery.of(context).size.width - 50,
+                          height: 400,
+                          child: Schedule(),
+                        )
+                      ],
+                    ),
+                  ),
                 ),
                 const Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                 const Text(

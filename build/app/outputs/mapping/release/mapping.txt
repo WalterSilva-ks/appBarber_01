@@ -1,7 +1,7 @@
 # compiler: R8
 # compiler_version: 2.1.62
 # min_api: 16
-# pg_map_id: f2a6663
+# pg_map_id: 18e64e5
 # common_typos_disable
 $r8$backportedMethods$utility$Integer$2$compare -> a:
     int compare(int,int) -> a
@@ -15568,54 +15568,23 @@ io.flutter.plugin.platform.VirtualDisplayController$OneTimeOnDrawListener -> io.
     void schedule(android.view.View,java.lang.Runnable) -> a
 io.flutter.plugin.platform.VirtualDisplayController$OneTimeOnDrawListener$1 -> io.flutter.plugin.platform.l$b$a:
     io.flutter.plugin.platform.VirtualDisplayController$OneTimeOnDrawListener this$0 -> b
-io.flutter.plugins.connectivity.Connectivity -> io.flutter.plugins.a.a:
-    android.net.ConnectivityManager connectivityManager -> a
-    android.net.ConnectivityManager getConnectivityManager() -> a
-    java.lang.String getNetworkType() -> b
-    java.lang.String getNetworkTypeLegacy() -> c
-io.flutter.plugins.connectivity.ConnectivityBroadcastReceiver -> io.flutter.plugins.a.b:
-    android.os.Handler mainHandler -> e
-    android.content.Context context -> b
-    io.flutter.plugin.common.EventChannel$EventSink events -> d
-    io.flutter.plugins.connectivity.Connectivity connectivity -> c
-    android.net.ConnectivityManager$NetworkCallback networkCallback -> f
-    void onCancel(java.lang.Object) -> a
-    void onListen(java.lang.Object,io.flutter.plugin.common.EventChannel$EventSink) -> b
-    void access$000(io.flutter.plugins.connectivity.ConnectivityBroadcastReceiver) -> c
-    io.flutter.plugins.connectivity.Connectivity access$100(io.flutter.plugins.connectivity.ConnectivityBroadcastReceiver) -> d
-    io.flutter.plugin.common.EventChannel$EventSink access$200(io.flutter.plugins.connectivity.ConnectivityBroadcastReceiver) -> e
-    void sendEvent() -> f
-io.flutter.plugins.connectivity.ConnectivityBroadcastReceiver$1 -> io.flutter.plugins.a.b$a:
-    io.flutter.plugins.connectivity.ConnectivityBroadcastReceiver this$0 -> a
-io.flutter.plugins.connectivity.ConnectivityBroadcastReceiver$2 -> io.flutter.plugins.a.b$b:
-    io.flutter.plugins.connectivity.ConnectivityBroadcastReceiver this$0 -> b
-io.flutter.plugins.connectivity.ConnectivityMethodChannelHandler -> io.flutter.plugins.a.c:
-    io.flutter.plugins.connectivity.Connectivity connectivity -> a
-    void onMethodCall(io.flutter.plugin.common.MethodCall,io.flutter.plugin.common.MethodChannel$Result) -> a
-io.flutter.plugins.connectivity.ConnectivityPlugin -> io.flutter.plugins.a.d:
-    io.flutter.plugin.common.EventChannel eventChannel -> b
-    io.flutter.plugin.common.MethodChannel methodChannel -> a
-    void setupChannels(io.flutter.plugin.common.BinaryMessenger,android.content.Context) -> a
-    void teardownChannels() -> b
-    void onAttachedToEngine(io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding) -> f
-    void onDetachedFromEngine(io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding) -> l
-io.flutter.plugins.pathprovider.-$$Lambda$PathProviderPlugin$PathProviderPlatformThread$02HcPT5wm2OW8KRfkq5uWAp52aw -> io.flutter.plugins.b.a:
+io.flutter.plugins.pathprovider.-$$Lambda$PathProviderPlugin$PathProviderPlatformThread$02HcPT5wm2OW8KRfkq5uWAp52aw -> io.flutter.plugins.a.a:
     java.util.concurrent.Callable f$1 -> c
     com.google.common.util.concurrent.SettableFuture f$0 -> b
-io.flutter.plugins.pathprovider.-$$Lambda$PathProviderPlugin$PathProviderPlatformThread$C6jh0c9GJ9mHFM8w6VnjG5dDSRw -> io.flutter.plugins.b.b:
+io.flutter.plugins.pathprovider.-$$Lambda$PathProviderPlugin$PathProviderPlatformThread$C6jh0c9GJ9mHFM8w6VnjG5dDSRw -> io.flutter.plugins.a.b:
     io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderPlatformThread f$0 -> a
-io.flutter.plugins.pathprovider.-$$Lambda$PathProviderPlugin$PathProviderPlatformThread$P9p1luHAMtZRdMGH32sEu-gu4xo -> io.flutter.plugins.b.c:
+io.flutter.plugins.pathprovider.-$$Lambda$PathProviderPlugin$PathProviderPlatformThread$P9p1luHAMtZRdMGH32sEu-gu4xo -> io.flutter.plugins.a.c:
     io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderPlatformThread f$0 -> a
-io.flutter.plugins.pathprovider.-$$Lambda$PathProviderPlugin$PathProviderPlatformThread$bY2GBw2SCJXKwLTPK2XqOOLXj1Y -> io.flutter.plugins.b.d:
+io.flutter.plugins.pathprovider.-$$Lambda$PathProviderPlugin$PathProviderPlatformThread$bY2GBw2SCJXKwLTPK2XqOOLXj1Y -> io.flutter.plugins.a.d:
     io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderPlatformThread f$0 -> a
-io.flutter.plugins.pathprovider.-$$Lambda$PathProviderPlugin$PathProviderPlatformThread$gZ5C6AHU8XZqD0WfMzmUC41xYks -> io.flutter.plugins.b.e:
+io.flutter.plugins.pathprovider.-$$Lambda$PathProviderPlugin$PathProviderPlatformThread$gZ5C6AHU8XZqD0WfMzmUC41xYks -> io.flutter.plugins.a.e:
     io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderPlatformThread f$0 -> a
-io.flutter.plugins.pathprovider.-$$Lambda$PathProviderPlugin$PathProviderPlatformThread$nvPgUtATRxJhxWjo0wh-qYEsFhg -> io.flutter.plugins.b.f:
+io.flutter.plugins.pathprovider.-$$Lambda$PathProviderPlugin$PathProviderPlatformThread$nvPgUtATRxJhxWjo0wh-qYEsFhg -> io.flutter.plugins.a.f:
     io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderPlatformThread f$0 -> a
     java.lang.String f$1 -> b
-io.flutter.plugins.pathprovider.-$$Lambda$PathProviderPlugin$PathProviderPlatformThread$onHI8nTqPEXiZHnTcUD7hUP9mHY -> io.flutter.plugins.b.g:
+io.flutter.plugins.pathprovider.-$$Lambda$PathProviderPlugin$PathProviderPlatformThread$onHI8nTqPEXiZHnTcUD7hUP9mHY -> io.flutter.plugins.a.g:
     io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderPlatformThread f$0 -> a
-io.flutter.plugins.pathprovider.PathProviderPlugin -> io.flutter.plugins.b.h:
+io.flutter.plugins.pathprovider.PathProviderPlugin -> io.flutter.plugins.a.h:
     android.content.Context context -> a
     io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderImpl impl -> c
     io.flutter.plugin.common.MethodChannel channel -> b
@@ -15635,8 +15604,8 @@ io.flutter.plugins.pathprovider.PathProviderPlugin -> io.flutter.plugins.b.h:
     java.lang.String getPathProviderStorageDirectory() -> n
     java.lang.String getPathProviderTemporaryDirectory() -> o
     void setup(io.flutter.plugin.common.BinaryMessenger,android.content.Context) -> p
-io.flutter.plugins.pathprovider.PathProviderPlugin$1 -> io.flutter.plugins.b.h$a:
-io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderBackgroundThread -> io.flutter.plugins.b.h$b:
+io.flutter.plugins.pathprovider.PathProviderPlugin$1 -> io.flutter.plugins.a.h$a:
+io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderBackgroundThread -> io.flutter.plugins.a.h$b:
     io.flutter.plugins.pathprovider.PathProviderPlugin this$0 -> a
     void getApplicationDocumentsDirectory(io.flutter.plugin.common.MethodChannel$Result) -> a
     void getStorageDirectory(io.flutter.plugin.common.MethodChannel$Result) -> b
@@ -15644,14 +15613,14 @@ io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderBackgroundThread 
     void getTemporaryDirectory(io.flutter.plugin.common.MethodChannel$Result) -> d
     void getExternalStorageDirectories(java.lang.String,io.flutter.plugin.common.MethodChannel$Result) -> e
     void getApplicationSupportDirectory(io.flutter.plugin.common.MethodChannel$Result) -> f
-io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderImpl -> io.flutter.plugins.b.h$c:
+io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderImpl -> io.flutter.plugins.a.h$c:
     void getApplicationDocumentsDirectory(io.flutter.plugin.common.MethodChannel$Result) -> a
     void getStorageDirectory(io.flutter.plugin.common.MethodChannel$Result) -> b
     void getExternalCacheDirectories(io.flutter.plugin.common.MethodChannel$Result) -> c
     void getTemporaryDirectory(io.flutter.plugin.common.MethodChannel$Result) -> d
     void getExternalStorageDirectories(java.lang.String,io.flutter.plugin.common.MethodChannel$Result) -> e
     void getApplicationSupportDirectory(io.flutter.plugin.common.MethodChannel$Result) -> f
-io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderPlatformThread -> io.flutter.plugins.b.h$d:
+io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderPlatformThread -> io.flutter.plugins.a.h$d:
     io.flutter.plugins.pathprovider.PathProviderPlugin this$0 -> c
     java.util.concurrent.Executor uiThreadExecutor -> a
     java.util.concurrent.Executor executor -> b
@@ -15675,60 +15644,60 @@ io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderPlatformThread ->
     java.lang.String lambda$getStorageDirectory$2$PathProviderPlugin$PathProviderPlatformThread() -> r
     java.lang.String lambda$getTemporaryDirectory$0() -> s
     java.lang.String lambda$getTemporaryDirectory$0$PathProviderPlugin$PathProviderPlatformThread() -> t
-io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderPlatformThread$1 -> io.flutter.plugins.b.h$d$a:
+io.flutter.plugins.pathprovider.PathProviderPlugin$PathProviderPlatformThread$1 -> io.flutter.plugins.a.h$d$a:
     io.flutter.plugin.common.MethodChannel$Result val$result -> a
     void onFailure(java.lang.Throwable) -> a
     void onSuccess(java.lang.Object) -> b
-io.flutter.plugins.pathprovider.PathProviderPlugin$UiThreadExecutor -> io.flutter.plugins.b.h$e:
+io.flutter.plugins.pathprovider.PathProviderPlugin$UiThreadExecutor -> io.flutter.plugins.a.h$e:
     android.os.Handler handler -> a
-io.flutter.plugins.pathprovider.StorageDirectoryMapper -> io.flutter.plugins.b.i:
+io.flutter.plugins.pathprovider.StorageDirectoryMapper -> io.flutter.plugins.a.i:
     java.lang.String androidType(java.lang.Integer) -> a
-io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$5jK4YK9J0IZPXZ_9Wx0c4Wcx9W0 -> io.flutter.plugins.c.a:
+io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$5jK4YK9J0IZPXZ_9Wx0c4Wcx9W0 -> io.flutter.plugins.b.a:
     io.flutter.plugins.videoplayer.Messages$VideoPlayerApi f$0 -> a
     void onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> a
-io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$K26c21eQj1kyuSezA3BiAPlEeow -> io.flutter.plugins.c.b:
+io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$K26c21eQj1kyuSezA3BiAPlEeow -> io.flutter.plugins.b.b:
     io.flutter.plugins.videoplayer.Messages$VideoPlayerApi f$0 -> a
     void onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> a
-io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$L22dvu9elYrBroCxXY-u6ZsCCL0 -> io.flutter.plugins.c.c:
+io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$L22dvu9elYrBroCxXY-u6ZsCCL0 -> io.flutter.plugins.b.c:
     io.flutter.plugins.videoplayer.Messages$VideoPlayerApi f$0 -> a
     void onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> a
-io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$Mo5I8iVYHUJJq1YPtF1wesG-i4U -> io.flutter.plugins.c.d:
+io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$Mo5I8iVYHUJJq1YPtF1wesG-i4U -> io.flutter.plugins.b.d:
     io.flutter.plugins.videoplayer.Messages$VideoPlayerApi f$0 -> a
     void onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> a
-io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$V9UtyiFZMVPIBRWXo-2jtkjD904 -> io.flutter.plugins.c.e:
+io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$V9UtyiFZMVPIBRWXo-2jtkjD904 -> io.flutter.plugins.b.e:
     io.flutter.plugins.videoplayer.Messages$VideoPlayerApi f$0 -> a
     void onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> a
-io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$YbCZPBbl-uecmCTWBtVHCDou5rY -> io.flutter.plugins.c.f:
+io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$YbCZPBbl-uecmCTWBtVHCDou5rY -> io.flutter.plugins.b.f:
     io.flutter.plugins.videoplayer.Messages$VideoPlayerApi f$0 -> a
     void onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> a
-io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$ao-w5r47u8RzNwhUgRfMO0Bz9Jc -> io.flutter.plugins.c.g:
+io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$ao-w5r47u8RzNwhUgRfMO0Bz9Jc -> io.flutter.plugins.b.g:
     io.flutter.plugins.videoplayer.Messages$VideoPlayerApi f$0 -> a
     void onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> a
-io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$exFB-yFf9g8u83GQ7d5qmy13YM0 -> io.flutter.plugins.c.h:
+io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$exFB-yFf9g8u83GQ7d5qmy13YM0 -> io.flutter.plugins.b.h:
     io.flutter.plugins.videoplayer.Messages$VideoPlayerApi f$0 -> a
     void onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> a
-io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$qQbIhSBFLe_g3es293Gtp1LqwUw -> io.flutter.plugins.c.i:
+io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$qQbIhSBFLe_g3es293Gtp1LqwUw -> io.flutter.plugins.b.i:
     io.flutter.plugins.videoplayer.Messages$VideoPlayerApi f$0 -> a
     void onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> a
-io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$yCkykpnoPp7Ps0L3lQFmFb2dqqM -> io.flutter.plugins.c.j:
+io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$yCkykpnoPp7Ps0L3lQFmFb2dqqM -> io.flutter.plugins.b.j:
     io.flutter.plugins.videoplayer.Messages$VideoPlayerApi f$0 -> a
     void onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> a
-io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$zXMQj9wt26y54sRj9xKAIkrdzu0 -> io.flutter.plugins.c.k:
+io.flutter.plugins.videoplayer.-$$Lambda$Messages$VideoPlayerApi$zXMQj9wt26y54sRj9xKAIkrdzu0 -> io.flutter.plugins.b.k:
     io.flutter.plugins.videoplayer.Messages$VideoPlayerApi f$0 -> a
     void onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> a
-io.flutter.plugins.videoplayer.-$$Lambda$Sbc3ko2bqgexay3P_sAYu5cfj50 -> io.flutter.plugins.c.l:
+io.flutter.plugins.videoplayer.-$$Lambda$Sbc3ko2bqgexay3P_sAYu5cfj50 -> io.flutter.plugins.b.l:
     io.flutter.embedding.engine.loader.FlutterLoader f$0 -> a
     java.lang.String get(java.lang.String,java.lang.String) -> a
-io.flutter.plugins.videoplayer.-$$Lambda$Wm0JlBZbIyUKx88oYwWVKrNBLZg -> io.flutter.plugins.c.m:
+io.flutter.plugins.videoplayer.-$$Lambda$Wm0JlBZbIyUKx88oYwWVKrNBLZg -> io.flutter.plugins.b.m:
     io.flutter.embedding.engine.loader.FlutterLoader f$0 -> a
     java.lang.String get(java.lang.String) -> a
-io.flutter.plugins.videoplayer.CustomSSLSocketFactory -> io.flutter.plugins.c.n:
+io.flutter.plugins.videoplayer.CustomSSLSocketFactory -> io.flutter.plugins.b.n:
     javax.net.ssl.SSLSocketFactory sslSocketFactory -> a
     java.net.Socket enableProtocols(java.net.Socket) -> a
-io.flutter.plugins.videoplayer.Messages -> io.flutter.plugins.c.o:
+io.flutter.plugins.videoplayer.Messages -> io.flutter.plugins.b.o:
     java.util.HashMap access$000(java.lang.Exception) -> a
     java.util.HashMap wrapError(java.lang.Exception) -> b
-io.flutter.plugins.videoplayer.Messages$CreateMessage -> io.flutter.plugins.c.o$a:
+io.flutter.plugins.videoplayer.Messages$CreateMessage -> io.flutter.plugins.b.o$a:
     java.lang.String asset -> a
     java.lang.String packageName -> c
     java.lang.String uri -> b
@@ -15740,23 +15709,23 @@ io.flutter.plugins.videoplayer.Messages$CreateMessage -> io.flutter.plugins.c.o$
     java.util.HashMap getHttpHeaders() -> d
     java.lang.String getPackageName() -> e
     java.lang.String getUri() -> f
-io.flutter.plugins.videoplayer.Messages$LoopingMessage -> io.flutter.plugins.c.o$b:
+io.flutter.plugins.videoplayer.Messages$LoopingMessage -> io.flutter.plugins.b.o$b:
     java.lang.Long textureId -> a
     java.lang.Boolean isLooping -> b
     io.flutter.plugins.videoplayer.Messages$LoopingMessage fromMap(java.util.HashMap) -> a
     java.lang.Boolean getIsLooping() -> b
     java.lang.Long getTextureId() -> c
-io.flutter.plugins.videoplayer.Messages$MixWithOthersMessage -> io.flutter.plugins.c.o$c:
+io.flutter.plugins.videoplayer.Messages$MixWithOthersMessage -> io.flutter.plugins.b.o$c:
     java.lang.Boolean mixWithOthers -> a
     io.flutter.plugins.videoplayer.Messages$MixWithOthersMessage fromMap(java.util.HashMap) -> a
     java.lang.Boolean getMixWithOthers() -> b
-io.flutter.plugins.videoplayer.Messages$PlaybackSpeedMessage -> io.flutter.plugins.c.o$d:
+io.flutter.plugins.videoplayer.Messages$PlaybackSpeedMessage -> io.flutter.plugins.b.o$d:
     java.lang.Double speed -> b
     java.lang.Long textureId -> a
     io.flutter.plugins.videoplayer.Messages$PlaybackSpeedMessage fromMap(java.util.HashMap) -> a
     java.lang.Double getSpeed() -> b
     java.lang.Long getTextureId() -> c
-io.flutter.plugins.videoplayer.Messages$PositionMessage -> io.flutter.plugins.c.o$e:
+io.flutter.plugins.videoplayer.Messages$PositionMessage -> io.flutter.plugins.b.o$e:
     java.lang.Long textureId -> a
     java.lang.Long position -> b
     io.flutter.plugins.videoplayer.Messages$PositionMessage fromMap(java.util.HashMap) -> a
@@ -15764,13 +15733,13 @@ io.flutter.plugins.videoplayer.Messages$PositionMessage -> io.flutter.plugins.c.
     java.lang.Long getTextureId() -> c
     void setPosition(java.lang.Long) -> d
     java.util.HashMap toMap() -> e
-io.flutter.plugins.videoplayer.Messages$TextureMessage -> io.flutter.plugins.c.o$f:
+io.flutter.plugins.videoplayer.Messages$TextureMessage -> io.flutter.plugins.b.o$f:
     java.lang.Long textureId -> a
     io.flutter.plugins.videoplayer.Messages$TextureMessage fromMap(java.util.HashMap) -> a
     java.lang.Long getTextureId() -> b
     void setTextureId(java.lang.Long) -> c
     java.util.HashMap toMap() -> d
-io.flutter.plugins.videoplayer.Messages$VideoPlayerApi -> io.flutter.plugins.c.o$g:
+io.flutter.plugins.videoplayer.Messages$VideoPlayerApi -> io.flutter.plugins.b.o$g:
     void setMixWithOthers(io.flutter.plugins.videoplayer.Messages$MixWithOthersMessage) -> a
     void initialize() -> b
     void dispose(io.flutter.plugins.videoplayer.Messages$TextureMessage) -> c
@@ -15782,7 +15751,7 @@ io.flutter.plugins.videoplayer.Messages$VideoPlayerApi -> io.flutter.plugins.c.o
     void setVolume(io.flutter.plugins.videoplayer.Messages$VolumeMessage) -> j
     io.flutter.plugins.videoplayer.Messages$PositionMessage position(io.flutter.plugins.videoplayer.Messages$TextureMessage) -> k
     void pause(io.flutter.plugins.videoplayer.Messages$TextureMessage) -> m
-io.flutter.plugins.videoplayer.Messages$VideoPlayerApi$-CC -> io.flutter.plugins.c.p:
+io.flutter.plugins.videoplayer.Messages$VideoPlayerApi$-CC -> io.flutter.plugins.b.p:
     void io.flutter.plugins.videoplayer.Messages$VideoPlayerApi.lambda$setup$0(io.flutter.plugins.videoplayer.Messages$VideoPlayerApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> a
     void io.flutter.plugins.videoplayer.Messages$VideoPlayerApi.lambda$setup$1(io.flutter.plugins.videoplayer.Messages$VideoPlayerApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> b
     void io.flutter.plugins.videoplayer.Messages$VideoPlayerApi.lambda$setup$10(io.flutter.plugins.videoplayer.Messages$VideoPlayerApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> c
@@ -15795,13 +15764,13 @@ io.flutter.plugins.videoplayer.Messages$VideoPlayerApi$-CC -> io.flutter.plugins
     void io.flutter.plugins.videoplayer.Messages$VideoPlayerApi.lambda$setup$8(io.flutter.plugins.videoplayer.Messages$VideoPlayerApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> j
     void io.flutter.plugins.videoplayer.Messages$VideoPlayerApi.lambda$setup$9(io.flutter.plugins.videoplayer.Messages$VideoPlayerApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply) -> k
     void io.flutter.plugins.videoplayer.Messages$VideoPlayerApi.setup(io.flutter.plugin.common.BinaryMessenger,io.flutter.plugins.videoplayer.Messages$VideoPlayerApi) -> l
-io.flutter.plugins.videoplayer.Messages$VolumeMessage -> io.flutter.plugins.c.o$h:
+io.flutter.plugins.videoplayer.Messages$VolumeMessage -> io.flutter.plugins.b.o$h:
     java.lang.Double volume -> b
     java.lang.Long textureId -> a
     io.flutter.plugins.videoplayer.Messages$VolumeMessage fromMap(java.util.HashMap) -> a
     java.lang.Long getTextureId() -> b
     java.lang.Double getVolume() -> c
-io.flutter.plugins.videoplayer.QueuingEventSink -> io.flutter.plugins.c.q:
+io.flutter.plugins.videoplayer.QueuingEventSink -> io.flutter.plugins.b.q:
     io.flutter.plugin.common.EventChannel$EventSink delegate -> a
     java.util.ArrayList eventQueue -> b
     boolean done -> c
@@ -15811,13 +15780,13 @@ io.flutter.plugins.videoplayer.QueuingEventSink -> io.flutter.plugins.c.q:
     void enqueue(java.lang.Object) -> d
     void maybeFlush() -> e
     void setDelegate(io.flutter.plugin.common.EventChannel$EventSink) -> f
-io.flutter.plugins.videoplayer.QueuingEventSink$1 -> io.flutter.plugins.c.q$a:
-io.flutter.plugins.videoplayer.QueuingEventSink$EndOfStreamEvent -> io.flutter.plugins.c.q$b:
-io.flutter.plugins.videoplayer.QueuingEventSink$ErrorEvent -> io.flutter.plugins.c.q$c:
+io.flutter.plugins.videoplayer.QueuingEventSink$1 -> io.flutter.plugins.b.q$a:
+io.flutter.plugins.videoplayer.QueuingEventSink$EndOfStreamEvent -> io.flutter.plugins.b.q$b:
+io.flutter.plugins.videoplayer.QueuingEventSink$ErrorEvent -> io.flutter.plugins.b.q$c:
     java.lang.Object details -> c
     java.lang.String code -> a
     java.lang.String message -> b
-io.flutter.plugins.videoplayer.VideoPlayer -> io.flutter.plugins.c.r:
+io.flutter.plugins.videoplayer.VideoPlayer -> io.flutter.plugins.b.r:
     io.flutter.plugins.videoplayer.VideoPlayerOptions options -> g
     io.flutter.plugins.videoplayer.QueuingEventSink eventSink -> d
     android.view.Surface surface -> b
@@ -15843,11 +15812,11 @@ io.flutter.plugins.videoplayer.VideoPlayer -> io.flutter.plugins.c.r:
     void setPlaybackSpeed(double) -> p
     void setVolume(double) -> q
     void setupVideoPlayer(io.flutter.plugin.common.EventChannel,io.flutter.view.TextureRegistry$SurfaceTextureEntry) -> r
-io.flutter.plugins.videoplayer.VideoPlayer$1 -> io.flutter.plugins.c.r$a:
-    io.flutter.plugins.videoplayer.VideoPlayer this$0 -> b
+io.flutter.plugins.videoplayer.VideoPlayer$1 -> io.flutter.plugins.b.r$a:
+    io.flutter.plugins.videoplayer.VideoPlayer this$0 -> a
     void onCancel(java.lang.Object) -> a
     void onListen(java.lang.Object,io.flutter.plugin.common.EventChannel$EventSink) -> b
-io.flutter.plugins.videoplayer.VideoPlayer$2 -> io.flutter.plugins.c.r$b:
+io.flutter.plugins.videoplayer.VideoPlayer$2 -> io.flutter.plugins.b.r$b:
     io.flutter.plugins.videoplayer.VideoPlayer this$0 -> b
     boolean isBuffering -> a
     void onTimelineChanged(com.google.android.exoplayer2.Timeline,java.lang.Object,int) -> D
@@ -15883,9 +15852,9 @@ io.flutter.plugins.videoplayer.VideoPlayer$2 -> io.flutter.plugins.c.r$b:
     void onTracksChanged(com.google.android.exoplayer2.source.TrackGroupArray,com.google.android.exoplayer2.trackselection.TrackSelectionArray) -> v
     void onStaticMetadataChanged(java.util.List) -> w
     void onMediaMetadataChanged(com.google.android.exoplayer2.MediaMetadata) -> z
-io.flutter.plugins.videoplayer.VideoPlayerOptions -> io.flutter.plugins.c.s:
+io.flutter.plugins.videoplayer.VideoPlayerOptions -> io.flutter.plugins.b.s:
     boolean mixWithOthers -> a
-io.flutter.plugins.videoplayer.VideoPlayerPlugin -> io.flutter.plugins.c.t:
+io.flutter.plugins.videoplayer.VideoPlayerPlugin -> io.flutter.plugins.b.t:
     android.util.LongSparseArray videoPlayers -> a
     io.flutter.plugins.videoplayer.VideoPlayerOptions options -> c
     io.flutter.plugins.videoplayer.VideoPlayerPlugin$FlutterState flutterState -> b
@@ -15903,7 +15872,7 @@ io.flutter.plugins.videoplayer.VideoPlayerPlugin -> io.flutter.plugins.c.t:
     void onDetachedFromEngine(io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding) -> l
     void pause(io.flutter.plugins.videoplayer.Messages$TextureMessage) -> m
     void disposeAllPlayers() -> n
-io.flutter.plugins.videoplayer.VideoPlayerPlugin$FlutterState -> io.flutter.plugins.c.t$a:
+io.flutter.plugins.videoplayer.VideoPlayerPlugin$FlutterState -> io.flutter.plugins.b.t$a:
     android.content.Context applicationContext -> a
     io.flutter.plugins.videoplayer.VideoPlayerPlugin$KeyForAssetAndPackageName keyForAssetAndPackageName -> d
     io.flutter.plugins.videoplayer.VideoPlayerPlugin$KeyForAssetFn keyForAsset -> c
@@ -15916,9 +15885,9 @@ io.flutter.plugins.videoplayer.VideoPlayerPlugin$FlutterState -> io.flutter.plug
     android.content.Context access$400(io.flutter.plugins.videoplayer.VideoPlayerPlugin$FlutterState) -> e
     void startListening(io.flutter.plugins.videoplayer.VideoPlayerPlugin,io.flutter.plugin.common.BinaryMessenger) -> f
     void stopListening(io.flutter.plugin.common.BinaryMessenger) -> g
-io.flutter.plugins.videoplayer.VideoPlayerPlugin$KeyForAssetAndPackageName -> io.flutter.plugins.c.t$b:
+io.flutter.plugins.videoplayer.VideoPlayerPlugin$KeyForAssetAndPackageName -> io.flutter.plugins.b.t$b:
     java.lang.String get(java.lang.String,java.lang.String) -> a
-io.flutter.plugins.videoplayer.VideoPlayerPlugin$KeyForAssetFn -> io.flutter.plugins.c.t$c:
+io.flutter.plugins.videoplayer.VideoPlayerPlugin$KeyForAssetFn -> io.flutter.plugins.b.t$c:
     java.lang.String get(java.lang.String) -> a
 io.flutter.util.PathUtils -> d.a.d.a:
     java.lang.String getCacheDirectory(android.content.Context) -> a

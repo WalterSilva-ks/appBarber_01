@@ -15,8 +15,8 @@
 12-->C:\minha_programacao\Flutter\projetos\appBarber\app_barber\android\app\src\main\AndroidManifest.xml:5:5-66
 12-->C:\minha_programacao\Flutter\projetos\appBarber\app_barber\android\app\src\main\AndroidManifest.xml:5:22-64
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->[:connectivity] C:\minha_programacao\Flutter\projetos\appBarber\app_barber\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:7:5-79
-13-->[:connectivity] C:\minha_programacao\Flutter\projetos\appBarber\app_barber\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:7:22-76
+13-->[com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\60b85d32c76f6174d43e445a6aa2cefb\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:24:5-79
+13-->[com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\60b85d32c76f6174d43e445a6aa2cefb\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:24:22-76
 14
 15    <application
 15-->C:\minha_programacao\Flutter\projetos\appBarber\app_barber\android\app\src\main\AndroidManifest.xml:8:4-45:19

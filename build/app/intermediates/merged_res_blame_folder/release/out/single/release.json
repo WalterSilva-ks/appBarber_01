@@ -12,12 +12,12 @@
         "source": "C:\\Users\\tiode\\.gradle\\caches\\transforms-2\\files-2.1\\2e94107f30f39be366a17347c2bf100b\\core-1.1.0\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "C:\\minha_programacao\\Flutter\\projetos\\appBarber\\app_barber\\build\\app\\intermediates\\res\\merged\\release\\layout_custom_dialog.xml.flat",
-        "source": "C:\\Users\\tiode\\.gradle\\caches\\transforms-2\\files-2.1\\2e94107f30f39be366a17347c2bf100b\\core-1.1.0\\res\\layout\\custom_dialog.xml"
-    },
-    {
         "merged": "C:\\minha_programacao\\Flutter\\projetos\\appBarber\\app_barber\\build\\app\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\minha_programacao\\Flutter\\projetos\\appBarber\\app_barber\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\minha_programacao\\Flutter\\projetos\\appBarber\\app_barber\\build\\app\\intermediates\\res\\merged\\release\\layout_custom_dialog.xml.flat",
+        "source": "C:\\Users\\tiode\\.gradle\\caches\\transforms-2\\files-2.1\\2e94107f30f39be366a17347c2bf100b\\core-1.1.0\\res\\layout\\custom_dialog.xml"
     },
     {
         "merged": "C:\\minha_programacao\\Flutter\\projetos\\appBarber\\app_barber\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi_splash.png.flat",
@@ -28,12 +28,12 @@
         "source": "C:\\minha_programacao\\Flutter\\projetos\\appBarber\\app_barber\\android\\app\\src\\main\\res\\drawable-v21\\background.png"
     },
     {
-        "merged": "C:\\minha_programacao\\Flutter\\projetos\\appBarber\\app_barber\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\tiode\\.gradle\\caches\\transforms-2\\files-2.1\\2e94107f30f39be366a17347c2bf100b\\core-1.1.0\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
-    },
-    {
         "merged": "C:\\minha_programacao\\Flutter\\projetos\\appBarber\\app_barber\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\minha_programacao\\Flutter\\projetos\\appBarber\\app_barber\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\minha_programacao\\Flutter\\projetos\\appBarber\\app_barber\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\tiode\\.gradle\\caches\\transforms-2\\files-2.1\\2e94107f30f39be366a17347c2bf100b\\core-1.1.0\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\minha_programacao\\Flutter\\projetos\\appBarber\\app_barber\\build\\app\\intermediates\\res\\merged\\release\\layout_notification_template_part_time.xml.flat",

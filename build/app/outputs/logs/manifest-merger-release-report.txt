@@ -4,7 +4,6 @@ ADDED from C:\minha_programacao\Flutter\projetos\appBarber\app_barber\android\ap
 INJECTED from C:\minha_programacao\Flutter\projetos\appBarber\app_barber\android\app\src\main\AndroidManifest.xml:1:1-46:12
 INJECTED from C:\minha_programacao\Flutter\projetos\appBarber\app_barber\android\app\src\main\AndroidManifest.xml:1:1-46:12
 INJECTED from C:\minha_programacao\Flutter\projetos\appBarber\app_barber\android\app\src\main\AndroidManifest.xml:1:1-46:12
-MERGED from [:connectivity] C:\minha_programacao\Flutter\projetos\appBarber\app_barber\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [:video_player] C:\minha_programacao\Flutter\projetos\appBarber\app_barber\build\video_player\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
 MERGED from [:sqflite] C:\minha_programacao\Flutter\projetos\appBarber\app_barber\build\sqflite\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider_android] C:\minha_programacao\Flutter\projetos\appBarber\app_barber\build\path_provider_android\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
@@ -12,6 +11,8 @@ MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] C:\Users\tiode\.
 MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\f09b8ddd78b021f724ecbb270644c7ef\jetified-exoplayer-dash-2.14.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\d9c8ace75a2893fac3be87cf34cd39b5\jetified-exoplayer-smoothstreaming-2.14.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\60b85d32c76f6174d43e445a6aa2cefb\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\b712161584c0f03d21bcedf0af2bd366\jetified-exoplayer-extractor-2.14.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\9c869d6c39afd30e0ee6a960de621a9b\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\2fd9120a6da4df3dbabdd40f6a2d8995\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\eb26273f8f7192460456ce62b9bdf9ef\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -22,8 +23,6 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\tiode\.gradle\
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\2271d874344878e62b9a8e309af0c39d\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\fb333fb43575d8a3b51161295454427f\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\cad25976877a6ae855ef6821534f58a1\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\b712161584c0f03d21bcedf0af2bd366\jetified-exoplayer-extractor-2.14.1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\9c869d6c39afd30e0ee6a960de621a9b\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\5f606c30f064eed94124828de37fadc0\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\96aee308bccd03bc62c306516c23a410\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\15792e6083b2b5b5a7ffa285d47daa24\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
@@ -106,8 +105,6 @@ uses-sdk
 INJECTED from C:\minha_programacao\Flutter\projetos\appBarber\app_barber\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\minha_programacao\Flutter\projetos\appBarber\app_barber\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\minha_programacao\Flutter\projetos\appBarber\app_barber\android\app\src\main\AndroidManifest.xml
-MERGED from [:connectivity] C:\minha_programacao\Flutter\projetos\appBarber\app_barber\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:connectivity] C:\minha_programacao\Flutter\projetos\appBarber\app_barber\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:video_player] C:\minha_programacao\Flutter\projetos\appBarber\app_barber\build\video_player\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:video_player] C:\minha_programacao\Flutter\projetos\appBarber\app_barber\build\video_player\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:sqflite] C:\minha_programacao\Flutter\projetos\appBarber\app_barber\build\sqflite\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
@@ -122,6 +119,10 @@ MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] C:\U
 MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\d9c8ace75a2893fac3be87cf34cd39b5\jetified-exoplayer-smoothstreaming-2.14.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\60b85d32c76f6174d43e445a6aa2cefb\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\60b85d32c76f6174d43e445a6aa2cefb\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\b712161584c0f03d21bcedf0af2bd366\jetified-exoplayer-extractor-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\b712161584c0f03d21bcedf0af2bd366\jetified-exoplayer-extractor-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\9c869d6c39afd30e0ee6a960de621a9b\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\9c869d6c39afd30e0ee6a960de621a9b\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\2fd9120a6da4df3dbabdd40f6a2d8995\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\2fd9120a6da4df3dbabdd40f6a2d8995\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -142,10 +143,6 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\tiode\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\fb333fb43575d8a3b51161295454427f\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\cad25976877a6ae855ef6821534f58a1\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\cad25976877a6ae855ef6821534f58a1\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\b712161584c0f03d21bcedf0af2bd366\jetified-exoplayer-extractor-2.14.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\b712161584c0f03d21bcedf0af2bd366\jetified-exoplayer-extractor-2.14.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\9c869d6c39afd30e0ee6a960de621a9b\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\9c869d6c39afd30e0ee6a960de621a9b\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\5f606c30f064eed94124828de37fadc0\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\5f606c30f064eed94124828de37fadc0\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\96aee308bccd03bc62c306516c23a410\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -163,10 +160,8 @@ INJECTED from C:\minha_programacao\Flutter\projetos\appBarber\app_barber\android
 		ADDED from C:\minha_programacao\Flutter\projetos\appBarber\app_barber\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\minha_programacao\Flutter\projetos\appBarber\app_barber\android\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:connectivity] C:\minha_programacao\Flutter\projetos\appBarber\app_barber\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\60b85d32c76f6174d43e445a6aa2cefb\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\60b85d32c76f6174d43e445a6aa2cefb\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:24:5-79
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\60b85d32c76f6174d43e445a6aa2cefb\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\9c869d6c39afd30e0ee6a960de621a9b\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\9c869d6c39afd30e0ee6a960de621a9b\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [:connectivity] C:\minha_programacao\Flutter\projetos\appBarber\app_barber\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:7:22-76
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\tiode\.gradle\caches\transforms-2\files-2.1\60b85d32c76f6174d43e445a6aa2cefb\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:24:22-76

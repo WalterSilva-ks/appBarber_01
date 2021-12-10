@@ -22,12 +22,17 @@ class _ScheduleState extends State<Schedule> {
     return Scaffold(
       body: Center(
         child: Container(
-          margin: const EdgeInsets.only(top: 30),
-          width: MediaQuery.of(context).size.width - 50,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+          ),
+          padding: EdgeInsets.symmetric(vertical: 15, horizontal: 5),
+          width: MediaQuery.of(context).size.width,
+          height: MediaQuery.of(context).size.height,
           child: ListView(
             scrollDirection: Axis.vertical,
             children: [
               DropdownButton<String>(
+                isExpanded: true,
                 alignment: Alignment.center,
                 value: dropdownValue,
                 elevation: 12,
@@ -59,13 +64,19 @@ class _ScheduleState extends State<Schedule> {
                   );
                 }).toList(),
               ),
-              ElevatedButton(
-                style: ButtonStyle(
-                  backgroundColor:
-                      MaterialStateProperty.all<Color>(Colors.black),
+              Padding(
+                padding: EdgeInsets.symmetric(vertical: 20),
+              ),
+              Container(
+                padding: EdgeInsets.symmetric(horizontal: 20),
+                child: ElevatedButton(
+                  style: ButtonStyle(
+                    backgroundColor:
+                        MaterialStateProperty.all<Color>(Colors.black),
+                  ),
+                  onPressed: () => _openDatePicker(context),
+                  child: const Text('Selecione o dia'),
                 ),
-                onPressed: () => _openDatePicker(context),
-                child: const Text('Selecione o dia'),
               )
             ],
           ),

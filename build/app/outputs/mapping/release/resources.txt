@@ -1428,7 +1428,6 @@ Referenced Strings:
   channelCount.caps
   character
   chartreuse
-  check
   chi
   chocolate
   circle
@@ -1918,7 +1917,6 @@ Referenced Strings:
   mistyrose
   mixWithOthers
   mk
-  mobile
   moccasin
   moreInformationURL
   motorola
@@ -2044,8 +2042,6 @@ Referenced Strings:
   playresx
   playresy
   plugins
-  plugins.flutter.io/connectivity
-  plugins.flutter.io/connectivity_status
   plugins.flutter.io/path_provider
   plum
   popRoute

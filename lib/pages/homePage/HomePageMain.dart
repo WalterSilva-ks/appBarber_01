@@ -2,11 +2,10 @@
 
 import 'package:app_barber/pages/UserPage/userPage.dart';
 import 'package:app_barber/pages/homePage/homeScreen.dart';
+import 'package:app_barber/pages/homePage/statusBarEBottomNavigator.dart';
 import 'package:app_barber/pages/recents/recentsPage.dart';
 import 'package:app_barber/pages/servicesPage/servicesPage.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:app_barber/pages/userLogin/loginMain.dart';
 
 class RecentsMain extends StatefulWidget {
   const RecentsMain({Key? key}) : super(key: key);
@@ -34,28 +33,7 @@ class _RecentsMainState extends State<RecentsMain> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: PreferredSize(
-        preferredSize: const Size.fromHeight(55.0),
-        child: AppBar(
-          title: SvgPicture.asset(
-            'assets/images/barberLogo.svg',
-            color: Colors.white,
-          ),
-          backgroundColor: Colors.black,
-          actions: <Widget>[
-            IconButton(
-              onPressed: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const LoginMain(),
-                    ));
-              },
-              icon: const Icon(Icons.login_outlined),
-            )
-          ],
-        ),
-      ),
+      appBar: status(context),
       body: PageView(
         controller: controllerPage,
         children: const [
