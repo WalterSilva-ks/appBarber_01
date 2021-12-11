@@ -47,7 +47,7 @@ class _ServicesPageState extends State<ServicesPage> {
                           ),
                           width: MediaQuery.of(context).size.width - 50,
                           height: 400,
-                          child: Schedule(),
+                          child: const Schedule(),
                         )
                       ],
                     ),

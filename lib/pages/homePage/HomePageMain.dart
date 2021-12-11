@@ -38,8 +38,8 @@ class _RecentsMainState extends State<RecentsMain> {
         controller: controllerPage,
         children: const [
           HomeScreen(),
-          RecentsStorePage(),
           ServicesPage(),
+          RecentsStorePage(),
           UserPage(),
         ],
         onPageChanged: setPaginaAtual,
@@ -61,17 +61,17 @@ class _RecentsMainState extends State<RecentsMain> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
+              Icons.assignment,
+              color: Colors.white,
+            ),
+            label: 'Agendamento',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
               Icons.access_time_sharp,
               color: Colors.white,
             ),
             label: 'Recentes',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.assignment,
-              color: Colors.white,
-            ),
-            label: 'Atendimento',
           ),
           BottomNavigationBarItem(
             icon: Icon(

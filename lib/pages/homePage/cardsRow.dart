@@ -156,10 +156,34 @@ class _CardsRowState extends State<CardsRow> {
                                   )
                                 ],
                               ),
-                              const Icon(
-                                Icons.more_vert,
-                                size: 30,
-                              )
+                              IconButton(
+                                icon: const Icon(
+                                  Icons.more_vert,
+                                  size: 30,
+                                ),
+                                onPressed: () => showDialog<String>(
+                                  context: context,
+                                  builder: (BuildContext context) =>
+                                      AlertDialog(
+                                    title: const Text('Info. do corte'),
+                                    content: const Text(
+                                      "Feito por: Brayan Telles F. \n\nTempo: 240min.\n\nCategoria: Pigmentação",
+                                    ),
+                                    actions: <Widget>[
+                                      TextButton(
+                                        onPressed: () =>
+                                            Navigator.pop(context, 'Cancel'),
+                                        child: const Text('Cancel'),
+                                      ),
+                                      TextButton(
+                                        onPressed: () =>
+                                            Navigator.pop(context, 'OK'),
+                                        child: const Text('OK'),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
                             ],
                           ),
                         ),
@@ -242,10 +266,34 @@ class _CardsRowState extends State<CardsRow> {
                                   )
                                 ],
                               ),
-                              const Icon(
-                                Icons.more_vert,
-                                size: 30,
-                              )
+                              IconButton(
+                                icon: const Icon(
+                                  Icons.more_vert,
+                                  size: 30,
+                                ),
+                                onPressed: () => showDialog<String>(
+                                  context: context,
+                                  builder: (BuildContext context) =>
+                                      AlertDialog(
+                                    title: const Text('Info. do corte'),
+                                    content: const Text(
+                                      "Feito por: Steve Maia\n \nTempo: 60min.\n\nCategoria: Barba",
+                                    ),
+                                    actions: <Widget>[
+                                      TextButton(
+                                        onPressed: () =>
+                                            Navigator.pop(context, 'Cancel'),
+                                        child: const Text('Cancel'),
+                                      ),
+                                      TextButton(
+                                        onPressed: () =>
+                                            Navigator.pop(context, 'OK'),
+                                        child: const Text('OK'),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
                             ],
                           ),
                         ),
@@ -328,9 +376,33 @@ class _CardsRowState extends State<CardsRow> {
                                   )
                                 ],
                               ),
-                              const Icon(
-                                Icons.more_vert,
-                                size: 30,
+                              IconButton(
+                                icon: const Icon(
+                                  Icons.more_vert,
+                                  size: 30,
+                                ),
+                                onPressed: () => showDialog<String>(
+                                  context: context,
+                                  builder: (BuildContext context) =>
+                                      AlertDialog(
+                                    title: const Text('Info. do corte'),
+                                    content: const Text(
+                                      "Feito por: Jaison M. Strong \n\nTempo: 90min.\n\nCategoria: Corte Dégradé",
+                                    ),
+                                    actions: <Widget>[
+                                      TextButton(
+                                        onPressed: () =>
+                                            Navigator.pop(context, 'Cancel'),
+                                        child: const Text('Cancel'),
+                                      ),
+                                      TextButton(
+                                        onPressed: () =>
+                                            Navigator.pop(context, 'OK'),
+                                        child: const Text('OK'),
+                                      ),
+                                    ],
+                                  ),
+                                ),
                               )
                             ],
                           ),
@@ -368,4 +440,14 @@ List<String> listBarbers = [
   'assets/images/barber6.jpg',
   'assets/images/barber7.jpg',
   'assets/images/barber8.jpg',
+];
+List<String> barbeiro = [
+  'Kaio',
+  'Jhon',
+  'Erik',
+  'Pietro',
+  'Carlos',
+  'David',
+  'Timótio',
+  'Breno',
 ];
